@@ -149,3 +149,36 @@ body, html {
   display: none;
   justify-content: center;
 }
+#formD{
+  margin-left: 20%;
+  margin-right: 20%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/drop.jpg");
+  padding: 5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.DeliverNotes{
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  border-radius: 30%;
+  margin-bottom: 2%;
+ 
+}
+.DeliverNotes button{
+  background-color: #337AFF;
+  color: white;
+  padding: 3%;
+}
+#subm{
+  background-color: #337AFF ;
+  color: white;
+}
+#formD{
+  display: none;
+}
+#formD p{
+  text-align: center;
+  font-size: 120%;
+}
