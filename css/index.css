@@ -182,3 +182,34 @@ body, html {
   text-align: center;
   font-size: 120%;
 }
+.jumbotron{
+  background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/media.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60%;
+  
+}
+.theForm{
+  padding: 2%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.theForm h2{
+  color:white;
+  margin-bottom: 2%;
+}
+#inName input,
+#inEmail input,
+#inMessage input{
+  background:none;
+  border: gray groove;
+  color: #ffffff;
+}
+.form-group textarea{
+  background: none;
+  border:gray groove;
+  color: #ffffff;
+  width: 90%;
+
+}
+
