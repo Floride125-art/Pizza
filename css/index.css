@@ -117,3 +117,27 @@ body, html {
   width: 30%;
 
 }
+#formFull{
+  margin-left: 20%;
+  margin-right: 20%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/drop.jpg");
+  padding: 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  
+}
+.form-group label{
+  text-align: center;
+  color: white;
+}
+#show-contact {
+  display: none;
+}
+.contact {
+  cursor: pointer;
+  color: #0088cc;
+}
+.contact:hover {
+  text-decoration: underline;
+}
