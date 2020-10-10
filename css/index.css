@@ -141,3 +141,8 @@ body, html {
 .contact:hover {
   text-decoration: underline;
 }
+.results{
+  text-align: center;
+  display: none;
+  justify-content: center;
+}
