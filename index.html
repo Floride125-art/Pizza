@@ -30,7 +30,7 @@
     <h2>About Us</h2>
     <div class="row">
       <div class="col-sm-6">
-        <img src="img/rahure.jpg">
+        <img src="img/rahure.jpg" id="abpic">
       </div>
       <div class="col-sm-6">
         <h3>Welcome 2 getPizza</h3>
@@ -84,6 +84,40 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="container" id="orders">
+    <h2>Order Now</h2>
+    
+    <form action="/action_page.php" class="was-validated" id="formFull">
+      <p style="text-align: center;">Please fill the form below to order Pizza:</p>
+      <div class="form-group">
+        <label for="uname">Select Pizza size:</label><br>
+        <select class="form-control form-control-lg" id="sizes">
+          <option  value=400>Small</option>
+          <option  value=700>Medium</option>
+          <option  value=1000 >Large</option>
+        </select>
+        <label for="uname">Choose the Crust:</label><br>
+        <select class="form-control form-control-lg" id="crusts">
+          <option value=250>Crispy crust</option>
+          <option value=310>Stuffed Crust</option>
+          <option value=370> Gluten-free crust</option>
+         
+        </select>
+        <label for="uname" >Choose Toppings:</label><br>
+        <select class="form-control form-control-lg" id="toppings">
+          <option value=150 >Mushroom</option>
+          <option value=100 >Onions</option>
+          <option val=300 >Sausage</option> 
+          
+        </select>
+        <label for="uname">Number of Pizza:</label><br>
+        <input type="number" class="form-control" id="inputNumber" placeholder="Number of Pizza..." required>
+          
+        </select>
+        </div>
+      <button type="submit" class="btn btn-primary" id="send">CheckOut</button>
+    </form>
   </div>
 
   <link rel="stylesheet" type="text/css" href="css/index.css">
