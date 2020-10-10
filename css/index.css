@@ -84,3 +84,36 @@ body, html {
   margin-bottom: 2%;
   
 }
+.general{
+  text-align: center;
+  color: white;
+}
+.smallP{
+  text-align: center;
+  color: white;
+}
+#pics{
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/aho.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  background-attachment: fixed;
+  margin-bottom: 2%;;
+}
+#pics h2{
+  color: white;
+}
+.medium{
+  text-align: center;
+  color: white;
+
+}
+.large{
+  text-align: center;
+  color: white;
+
+}
+.chooseSize option{
+  width: 30%;
+
+}
