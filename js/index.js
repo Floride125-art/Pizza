@@ -39,3 +39,8 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
+$(document).ready(function(){
+  $(".DeliverNotes").click(function(){
+    $("#formD").show();
+  });
+});
