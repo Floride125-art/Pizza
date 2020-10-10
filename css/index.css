@@ -212,4 +212,17 @@ body, html {
   width: 90%;
 
 }
+.iconz a{
+  margin:20px 10px;  
+}
+.iconz i{
+  color:white;
+  align-items: center;
+  
 
+}
+
+.iconz a:hover{
+  box-shadow:2px 2px 12px rgba(255, 254, 254, 0.856);
+  transition:all ease 0.5s;
+}
