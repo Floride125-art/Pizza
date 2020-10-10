@@ -117,6 +117,9 @@ body, html {
   width: 30%;
 
 }
+#orders{
+  margin-top: 2%;
+}
 #formFull{
   margin-left: 20%;
   margin-right: 20%;
