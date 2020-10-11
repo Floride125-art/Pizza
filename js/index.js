@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  //user Interface
   $("#formFull").submit(function(event){
       
     function sizePizza() {
@@ -23,12 +24,14 @@ $(document).ready(function() {
       this.myToppings = toppingPizza;
       this.myNumber = quantity;
     }
+    //business Logic(a constructor)
     var selectOption = new getPizza(sizePizza(), crustPizza(), toppingPizza(), numberPizza());
     var totalCost =
       (selectOption.mySize +
         selectOption.myCrust+
         selectOption.myToppings) *
         selectOption.myNumber;
+    //user interface to get results
         
         $(".results").show();
         document.getElementById("paraSize").innerHTML=selectOption.mySize + (" Rwf");
